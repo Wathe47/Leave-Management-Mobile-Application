@@ -1,0 +1,10 @@
+include: flutter.yaml
+
+analyzer:
+  errors:
+    # Add custom lint rules here
+    prefer_single_quotes: warning
+    lines_longer_than_80_chars: warning
+  exclude:
+    # Add files or directories to exclude from analysis
+    - lib/generated/
